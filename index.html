@@ -1,0 +1,607 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L806BC4TJG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-L806BC4TJG');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        @media screen and (max-width: 600px) {
+            .container {
+                width: 100%;
+            }
+
+            .header img{
+                width: 200px !important;
+            }
+
+            .hero__headline p {
+                font-size: 1.3rem !important;
+            }
+
+            .hero__headline p span{
+                font-size: 3.5rem !important;
+            }
+
+            .hero__info p{
+                font-size: 1rem !important;
+            }
+
+            .hero__overview {
+                font-size: 1rem !important;
+            }
+
+            .hero__subheader p {
+                font-size: 1.3rem !important;
+            }
+
+            .hero__btn p{
+                font-size: 1.1rem !important;
+            }
+
+            .testimony {
+                padding: 10px 0px 0 0px !important;
+            }
+
+            .highlights-subheader {
+                font-size: 1.5rem !important;
+            }
+
+            .image {
+                width: 100% !important;
+                /* padding: 0 40px !important; */
+            }
+            .image img {
+                /* height: 230px !important; */
+            }
+
+            .description {
+                width: 100% !important;
+                padding: 15px 0 0 0 !important;
+            
+            }
+
+            .highlights__table-ratings {
+                width: 250px !important;
+            }
+
+            .underrated-title {
+                padding: 60px 0px 25px 0px !important;
+            }
+
+
+            .underrated-title p {
+                font-size: 1.3rem !important;
+            }
+
+            .borabora-title {
+                padding: 60px 0px 25px 0px !important;
+            }
+            
+            .borabora-title p{
+                font-size: 1.3rem !important;
+            }
+
+            /* .desc {
+                width: 100%;
+            } */
+        }
+
+        @media screen and (max-width: 480px){
+            .underrated-table img{
+                height: 150px !important;
+            }
+
+            .borabora-table img{
+                height: 150px !important;
+            }
+        }
+
+        
+    </style>
+</head>
+    <body width="100%" style="background-color: lightgrey;">
+        <table class="container" cellpadding="0" cellspacing="0" width="600px" style="background-color: white; margin: 0 auto; padding: 0px 30px; font-family: 'Open Sans', sans-serif;" width="100%">
+            <tr>
+                <td>
+                    <table class="header" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <img width="225px" src="images/Tripadvisor-Logo.png" alt="">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="hero" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="hero__headline" style="text-align: center;">
+                                <p style="padding: 0; margin: 0; font-size: 1.5rem; font-weight: 600;">the <span style="font-weight: 600; font-size: 5rem;">upgrade</span></p>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="hero__overview" style="font-size: 1.2rem; font-weight: 400; padding: 40px 0;">
+                                <p style="padding: 0; margin: 0; line-height: 1.5;">
+                                    Welcome to <span style="font-weight: 700; font-style: italic;">The Upgrade</span>, a collection of Tripadvisor
+                                    articles packed with timely travel guidance that will help
+                                    make your next vacation better than ever.
+                                </p>
+                                <br>
+                                <p style="padding: 0; margin: 0; line-height: 1.5;">
+                                    This week: exciting new places to explore, from right nearby
+                                    to the (seeming) ends of the Earth.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table class="hero__image" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td style="border-radius: 15px; box-shadow: 10px 6px  #e9b441; background-color: #e9b441;" width="100%">
+                                           <img style="border-radius: 15px;" width="100%" src="images/tokyotower.jpg" alt=""> 
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="hero__subheader" style="padding-top: 45px;">
+                                <p style="font-weight: 600; font-size: 1.7rem;">
+                                    Japan's reopened - here's what's happened while
+                                    we've been away
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="hero__info" style="padding: 20px 0 40px 0;">
+                                <p style="font-size: 1.2rem; line-height: 1.5;">
+                                    The favorable dollar-to-yen exchange rate means that
+                                    there's never been a better time to visit Japan, which
+                                    has finally reopened its borders to international travelers
+                                    after years of pandemic-related closures. But while we've been
+                                    away, stellar new hotels, restaurants, and museums have opened
+                                    from coast to cost. Whether you're planning a trip ASAP or for
+                                    later in 2023, here's our comprehensive guide for leveling up
+                                    your long-awaited trip.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="hero__btn" align="center" style="background-color: black; padding: 20px 0; border-radius: 35px;">
+                                <p style="color: white; font-size: 1.2rem;">
+                                    Read more
+                                </p>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td width="100%" style="padding-top: 45px;">
+                                <table class="hero__testimony" cellpadding="0" cellspacing="0" width="100%" style="padding: 15px 30px; border: 3px solid #e9b441; text-align: center; border-radius: 10px;">
+                                    <tr>
+                                        <td>
+                                            <p style="font-size: 0.9rem; line-height:1.5; font-style: italic;">
+                                                "The people who work here are out of this world and
+                                                make the stay beyond incredible. There is a sense of
+                                                place but also the mixture of East and West done 
+                                                elegantley along with a focus on sustainablity.
+                                                "
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="testimony" style="font-size: 0.9rem; padding: 10px 60px 0 60px; line-height: 1.5;">
+                                                - Tripadvisor traveler yadiram533's review of the new
+                                                Ace Hotel Kyoto
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                                
+                                
+                            
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td width="100%" style="padding-bottom: 70px; border-bottom: 1px solid black;">
+                    <table class="highlights" width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td style="text-align: center; padding: 55px 0 35px 0;">
+                                <p class="highlights-subheader" style="font-weight: 600; font-size: 1.7rem;">
+                                    Other Japan Highlights
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table class="highlights__table" width="100%" cellpadding="0" cellspacing="0" align="left">
+                                    <tr>
+                                        <td style="">
+                                            <table class="image" width="50%" align="left" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td width="100%">
+                                                        <img width="100%" height="270px" style="object-fit: cover;" src="images/NippondairaHotel .jpeg" alt="">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="description" width="50%" cellpadding="0" cellspacing="0" style="padding-left: 15px; padding-top: 28px;">
+                                                <tr>
+                                                    <td width="100%">
+                                                        <p style="font-size: 1.2rem; font-weight: 800; padding-bottom: 5px;">Nippondaira Hotel</p>
+                                                        <table class="highlights__table-ratings" cellspacing="0" cellpadding="0" style="vertical-align: middle;">
+                                                            <tr>
+                                                                <td width="30%">
+                                                                    <img width="100%" src="images/review1.jpg" alt="">
+                                                                </td>
+                                                                <td style="padding: 0 0 5px 8px;">
+                                                                    <p style="margin: 0; padding: 0; font-size: 0.9rem;">
+                                                                        349
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <p>
+                                                           #1 of 93 hotels in Shizuoka
+                                                        </p>
+                                                        <br>
+                                                        <p style="padding-bottom: 10px;">
+                                                            1500-2 Shimizu-ku Mabase, Shizuoka 424-0875 Shizuoka Prefecture                                            
+                                                        </p>
+                                                        <p style="background-color: black; color: white; padding: 10px 20px; border-radius: 20px; width: fit-content;">
+                                                            Learn more
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 50px 0;">
+                                            <table class="image" width="50%" align="left" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td width="100%">
+                                                        <img width="100%" height="270px" style="object-fit: cover;" src="images/kagurazakaishikawa.jpeg" alt="">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="description" width="50%" cellpadding="0" cellspacing="0" style="padding-left: 15px; padding-top: 20px;">
+                                                <tr>
+                                                    <td width="100%">
+                                                        <p style="font-size: 1.2rem; font-weight: 800; padding-bottom: 5px;">Ishikawa</p>
+                                                        <table class="highlights__table-ratings" cellspacing="0" cellpadding="0" style="vertical-align: middle;">
+                                                            <tr>
+                                                                <td width="30%">
+                                                                    <img width="100%" src="images/review1.jpg" alt="">
+                                                                </td>
+                                                                <td style="padding: 0 0 5px 8px;">
+                                                                    <p style="margin: 0; padding: 0; font-size: 0.9rem;">
+                                                                        131
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <p>
+                                                            #6 of 2502 restaurants in Shinjuku
+                                                        </p>
+                                                        <br>
+                                                        <p style="padding-bottom: 10px;">
+                                                            5-37 Kagurazaka 1F Takamura Bldg., Shinjuku 162-0825 Tokyo Prefecture                                              
+                                                        </p>
+                                                        <p style="background-color: black; color: white; padding: 10px 20px; border-radius: 20px; width: fit-content;">
+                                                            Learn more
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table class="image" width="50%" align="left" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td width="100%">
+                                                        <img width="100%" height="270px" style="object-fit: cover;" src="images/kyotostation.jpeg" alt="">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="description" width="50%" cellpadding="0" cellspacing="0" style="padding-left: 15px; padding-top: 25px;">
+                                                <tr>
+                                                    <td width="100%">
+                                                        <p style="font-size: 1.2rem; font-weight: 800; padding-bottom: 5px;">Kyoto Station Building</p>
+                                                        <table class="highlights__table-ratings" cellspacing="0" cellpadding="0" style="vertical-align: middle;">
+                                                            <tr>
+                                                                <td width="30%">
+                                                                    <img width="100%" src="images/review1.jpg" alt="">
+                                                                </td>
+                                                                <td style="padding: 0 0 5px 8px;">
+                                                                    <p style="margin: 0; padding: 0; font-size: 0.9rem;">
+                                                                        4,285
+                                                                    </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <p>
+                                                            #28 of 1999 things to do in Kyoto
+                                                        </p>
+                                                        <br>
+                                                        <p style="padding-bottom: 10px;">
+                                                            901 Higashishiokojicho, Shimogyo-ku, Kyoto 600-8216 Kyoto Prefecture                                               
+                                                        </p>
+                                                        <p style="background-color: black; color: white; padding: 10px 20px; border-radius: 20px; width: fit-content;">
+                                                            Learn more
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <td width="100%">
+                                            <table width="50%" align="left">
+                                                <tr>
+                                                    <td>
+                                                        <table width="100%" align="left">
+                                                            <tr>
+                                                                <td class="image" width="100%" height="250px" style="">
+                                                                    <img width="100%" style="object-fit: cover;" height="100%" src="images/NippondairaHotel .jpeg" alt="">
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table width="50%" align="left">
+                                                <tr>
+                                                    <td>
+                                                        <table width="100%">
+                                                            <tr>
+                                                                
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td width="50%" height="370px" style="padding: 60px 0;">
+                                            <img width="100%" height="100%" style="object-fit: cover;" height="100%" src="images/kagurazakaishikawa.jpeg" alt="">
+                                        </td>
+                                        <td width="50%" style="padding-left: 15px;">
+                                            <p style="font-size: 1.2rem; font-weight: 800; padding-bottom: 5px;">Ishikawa</p>
+                                            <table class="highlights__table-ratings" cellspacing="0" cellpadding="0" style="vertical-align: middle;">
+                                                <tr>
+                                                    <td width="30%">
+                                                        <img width="100%" src="images/review1.jpg" alt="">
+                                                    </td>
+                                                    <td style="padding: 0 0 5px 8px;">
+                                                        <p style="margin: 0; padding: 0; font-size: 0.9rem;">
+                                                            131
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <p>
+                                                #6 of 2502 restaurants in Shinjuku
+                                            </p>
+                                            <br>
+                                            <p style="padding-bottom: 10px;">
+                                                5-37 Kagurazaka 1F Takamura Bldg., Shinjuku 162-0825 Tokyo Prefecture                                            
+                                            </p>
+                                            <p style="background-color: black; color: white; padding: 10px 20px; border-radius: 20px; width: fit-content;">
+                                                Learn more
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="50%" height="250px" style="">
+                                            <img width="100%" style="object-fit: cover;" height="100%" src="images/kyotostation.jpeg" alt="">
+                                        </td>
+                                        <td width="50%" style="padding-left: 15px;">
+                                            <p style="font-size: 1.2rem; font-weight: 800; padding-bottom: 5px;">Kyoto Station Building</p>
+                                            <table class="highlights__table-ratings" cellspacing="0" cellpadding="0" style="vertical-align: middle;">
+                                                <tr>
+                                                    <td width="30%">
+                                                        <img width="100%" src="images/review1.jpg" alt="">
+                                                    </td>
+                                                    <td style="padding: 0 0 5px 8px;">
+                                                        <p style="margin: 0; padding: 0; font-size: 0.9rem;">
+                                                            4,285
+                                                        </p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <p>
+                                                #28 of 1999 things to do in Kyoto
+                                            </p>
+                                            <br>
+                                            <p style="padding-bottom: 10px;">
+                                                901 Higashishiokojicho, Shimogyo-ku, Kyoto 600-8216 Kyoto Prefecture                                            </p>
+                                            <p style="background-color: black; color: white; padding: 10px 20px; border-radius: 20px; width: fit-content;">
+                                                Learn more
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    -->
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="underrated-table" cellpadding="0" cellspacing="0" width="100%" style="border-bottom: 1px solid black;">
+                        <tr>
+                            <td class="underrated-title" align="center" style="padding: 60px 35px 25px 35px;">
+                                <p style="font-weight: 600; font-size: 1.6rem;">
+                                    Three ways to explore one of America's underrated
+                                    national parks
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 15px;">
+                                <img width="100%" height="230px" style="object-fit: cover; border-radius: 15px; box-shadow: 10px 6px #e9b441;" src="images/bigbend.jpeg" alt="" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="padding-bottom: 60px;">
+                                <p style="background-color: black; color: white; padding: 10px 20px; border-radius: 20px; width: fit-content;">
+                                    Learn more
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="borabora-table" cellpadding="0" cellspacing="0" width="100%" style="">
+                        <tr>
+                            <td class="borabora-title" align="center" style="padding: 60px 35px 25px 35px;">
+                                <p style="font-weight: 600; font-size: 1.6rem;">
+                                    Experience breathtaking views all over the globe
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 15px;">
+                                <img width="100%" height="230px" style="object-fit: cover; border-radius: 15px; box-shadow: 10px 6px #e9b441;" src="images/borabora.jpeg" alt="" >
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="padding-bottom: 15px;">
+                                <p style="background-color: black; color: white; padding: 10px 20px; border-radius: 20px; width: fit-content;">
+                                    Learn more
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="footer" width="100%" cellpadding="0" cellspacing="0" style="font-size: 0.9rem; padding-top: 30px;">
+                        <tr>
+                            <td style="width: fit-content;">
+                                <img src="images/Tripadvisor-Logo.png" width="175px" alt="" style="background-color: transparent;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Please do not reply directly to this email. This was sent from an address that
+                                    cannot accept responses. For questions or assistance, visit our <span style="text-decoration: underline;">Help Center</span>.
+                                </p>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="padding: 15px 0;">
+                                <p>
+                                    Tripadvisor LLC, 400 1st Ave., Needham, MA 02494, USA
+                                </p>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="padding-bottom: 15px;">
+                                <p>
+                                    2022 Tripadvisor LLC. All rights reserved. Tripadvisor, the advisor
+                                    logo, the owl logo, Travelers'Choice and the Travelers' Choice logo are 
+                                    trademarks of Tripadvisor LLC in the US and other countries. 
+                                </p>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td style="padding-bottom: px;">
+                                <table class="footer__links" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr style="display: flex; flex-wrap: wrap;">
+                                        <td style="padding-right: 5px; border-right: 1px solid black;">
+                                            <p style="text-decoration: underline;">
+                                                Go to Tripadvisor
+                                            </p>
+                                        </td>
+                                        <td style="padding: 0 5px; border-right: 1px solid black;">
+                                            <p style="text-decoration: underline;">
+                                                Unsubscribe                                            
+                                            </p>
+                                        </td>
+                                        <td style="padding: 0 5px; border-right: 1px solid black;">
+                                            <p style="text-decoration: underline;">
+                                                Privacy and Cookies Statement
+                                            </p>
+                                        </td>
+                                        <td style="padding-left: 5px">
+                                            <p style="text-decoration: underline;">
+                                                Contact Us                                            
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 20px 0;">
+                                <img width="175px" src="images/both.png" alt="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 15px;">
+                                <p>
+                                    Follow us for travel inspo:
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-bottom: 15px;">
+                                <table class="footer__socials" width="100%" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td width="24px">
+                                            <img width="24px" src="images/facebook.png" alt="">
+                                        </td>
+                                        <td width="24px" style="padding: 0 25px;">
+                                            <img width="24px" src="images/instagram.png" alt="">
+                                        </td>
+                                        <td >
+                                            <img src="images/twitter.png" alt="">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
