@@ -1,1 +1,1 @@
-# tripadvisor
+# Tripadvisor transactional email
